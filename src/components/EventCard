@@ -1,0 +1,25 @@
+import StudentList from "./StudentList";
+
+type EventProps = {
+  eventName: string;
+  venue: string;
+  date: string;
+  organizer: string;
+  capacity: number;
+  registeredStudents: string[];
+};
+
+const EventCard = ({
+  eventName,
+  venue,
+  date,
+  organizer,
+  capacity,
+  registeredStudents,
+}: EventProps) => {
+  return (
+    {eventName}
+  )
+};
+
+export default EventCard;
